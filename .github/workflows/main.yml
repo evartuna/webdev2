@@ -29,6 +29,7 @@ jobs:
             git clone https://github.com/evartuna/webdev2.git
             git remote add upstream https://github.com/evartuna/Web-Dev-For-Beginners.git
             git fetch upstream
+            git checkout main
             git merge upstream/main
             git push
      
